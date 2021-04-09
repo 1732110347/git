@@ -5,9 +5,14 @@ git clone #
 git branch #
  
  git fetch origin xxxx  #
+
  git checkout -b xxxx origin/xxxx #
 
  git add . #
  git commit -m "xxx" #
 
  git push origin xxxx #
+
+ git log #
+
+ git status #
