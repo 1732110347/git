@@ -16,13 +16,9 @@ git branch #
  git log #
 
  git status #
-<<<<<<< HEAD
- 
-=======
+
 
  git pull#
-<<<<<<< HEAD
->>>>>>> 7df544dbd1a6772809649c199388fac810e3ab54
-=======
+
   git
->>>>>>> 388b0f3e7c0c72a349cc51296b3bba71d1639e39
+
