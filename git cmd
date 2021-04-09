@@ -1,17 +1,17 @@
-git ls-remote # 
+git ls-remote (远程区)# 
 
-git clone #
+git clone #克隆
 
-git branch #
+git branch #分支管理
  
- git fetch origin xxxx  #
+ git fetch origin xxxx  #获取远程
 
  git checkout -b xxxx origin/xxxx #
 
  git add . #
  git commit -m "xxx" #
 
- git push origin xxxx #
+ git push （-u 第一次推送）origin （远程仓库名）xxxx #
 
  git log #
 
@@ -20,5 +20,5 @@ git branch #
 
  git pull#
 
-  git2222#
+
 
