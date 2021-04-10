@@ -6,9 +6,17 @@ git branch #分支管理
  
  git fetch origin xxxx  #获取远程
 
- git checkout -b xxxx origin/xxxx #
+ git checkout -b xxxx origin/xxxx #接着要查看下本地的当前分支嘛git branch
+你会看到你在master分支下
+这个时候往往会用git checkout -b dev origin/dev这个命令
+它意思是说.切换到dev分支上,接着跟远程的origin地址上的dev分支关联起来,这里要注意origin代表是一个路径,可以用git remote -v 查看
+说来白了,origin/dev有点像是git@github.com:xxxxx/yyyyy.git/dev
+接着在dev当前分支下进行操作,add,commit后,用git push origin dev,意思是推送当前的dev分支到远程origin地址的dev分支上
 
- git add . #
+ git add . #当对工作区修改（或新增）的文件执行 git add 命令时，
+ 暂存区的目录树被更新，同时工作区修改（或新增）的文件内容被写入到
+ 对象库中的一个新的对象中，而该对象的ID被记录在暂存区的文件索引中。
+ 
  git commit -m "xxx" #
 
  git push （-u 第一次推送）origin （远程仓库名）xxxx #
