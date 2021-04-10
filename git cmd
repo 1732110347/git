@@ -12,6 +12,7 @@ git branch #分支管理
 它意思是说.切换到dev分支上,接着跟远程的origin地址上的dev分支关联起来,这里要注意origin代表是一个路径,可以用git remote -v 查看
 说来白了,origin/dev有点像是git@github.com:xxxxx/yyyyy.git/dev
 接着在dev当前分支下进行操作,add,commit后,用git push origin dev,意思是推送当前的dev分支到远程origin地址的dev分支上
+-b 表示本地创建 dev 分支并切换到 dev 分支上  origin/dev 表示远程库的 dev 分支
 
  git add . #当对工作区修改（或新增）的文件执行 git add 命令时，
  暂存区的目录树被更新，同时工作区修改（或新增）的文件内容被写入到
