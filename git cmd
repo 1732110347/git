@@ -32,7 +32,9 @@ git merge 合并
 
  git status #显示有变更的文件#
 
+git remote add origin (ssh)连接远程仓库
 
+git init 初始化为仓库
 
 
 
