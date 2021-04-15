@@ -26,7 +26,7 @@ git merge 合并
  git commit -m "xxx" #
 
  git push （-u 第一次推送）origin （远程仓库名）xxxx #
- git push -d origin xxx删除分支
+ git push -d origin xxx删除远程分支
  git pull origin xxx
 
  git log #显示当前分支的版本历史
@@ -38,6 +38,5 @@ git init初始化为仓库
 git remote add origin (ssh)连接远程仓库
 
 rm -rf .git 删除
-
 
 
