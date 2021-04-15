@@ -3,7 +3,8 @@ git ls-remote (远程区)#
 git clone #克隆
 
 git branch #分支管理
- 
+ git branch -D xxx删除分支
+
  git fetch origin xxxx  #获取远程
 
  git checkout -b xxxx origin/xxxx #接着要查看下本地的当前分支嘛git branch
@@ -36,7 +37,7 @@ git init初始化为仓库
 
 git remote add origin (ssh)连接远程仓库
 
-
+rm -rf .git 删除
 
 
 
