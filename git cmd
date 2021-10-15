@@ -19,6 +19,9 @@ git checkout -b xxx创建新分支
 git checkout xxx切换分支
 
 git merge 合并
+git merge （） --allow-unrelated-histories 强行合并
+
+
  git add . #当对工作区修改（或新增）的文件执行 git add 命令时，
  暂存区的目录树被更新，同时工作区修改（或新增）的文件内容被写入到
  对象库中的一个新的对象中，而该对象的ID被记录在暂存区的文件索引中。
@@ -34,10 +37,24 @@ git merge 合并
  git status #显示有变更的文件#
 
 
-git remote add origin (ssh)连接远程仓库
+git remote add （origin） (ssh)连接远程仓库
 
 git init 初始化为仓库
 
 rm -rf .git 删除
+
+git revert -n 版本号 删除历史记录
+
+git remote -v 查看连接的仓库
+
+git fetch （upstream）同步仓库更改
+
+
+
+
+
+
+
+
 
 
